@@ -1,8 +1,9 @@
 public class Exercicio {
-    int id;
-    String nome;
-    String descricao;
-    String som;
-    int tempoMin;
-    
+ public   int id;
+ public  String nome;
+ public   String descricao;
+ public String som;
+ public int tempoMin;
+ public String exemplo;
+   
 }

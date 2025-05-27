@@ -1,4 +1,5 @@
 public class Clinica {
     String nome;
-    int cnpj;
+    int id;
+    String cnpj;
 }
