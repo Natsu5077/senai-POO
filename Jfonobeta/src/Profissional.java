@@ -1,7 +1,7 @@
 public class Profissional {
-    String nome;
-    String telefone;
-    int id;
+   private String nome;
+   private String telefone;
+   private int id;
 
     public Profissional(){
 
@@ -15,8 +15,14 @@ public class Profissional {
         this.nome=nome;
         this.telefone=telefone;
     }
+    public void setNome(String nome){
+        this.nome=nome;
+    }
     public String getnome(){
         return nome;
+    }
+    public void setTelefone(String telefone){
+        this.telefone=telefone;
     }
     public String gettelefone(){
         return telefone;
